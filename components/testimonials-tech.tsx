@@ -41,7 +41,7 @@ export function TestimonialsTech() {
       company: "FinanceAI",
       avatar: "/placeholder.svg?height=60&width=60",
       content:
-        "Working with Mr Coder was a game-changer. The fintech platform he developed handles millions of transactions seamlessly. His expertise in security and performance optimization is unmatched.",
+        "Working with Coder Gali was a game-changer. The fintech platform they developed handles millions of transactions seamlessly. Their expertise in security and performance optimization is unmatched.",
       rating: 5,
       project: "Fintech Trading Platform",
       tech: ["Next.js", "Python", "AWS"],
@@ -53,7 +53,7 @@ export function TestimonialsTech() {
       company: "HealthTech Solutions",
       avatar: "/placeholder.svg?height=60&width=60",
       content:
-        "The healthcare platform Mr Coder built is revolutionary. HIPAA compliant, scalable, and user-friendly. Our patient engagement scores improved by 300%. Absolutely recommended!",
+        "The healthcare platform Coder Gali built is revolutionary. HIPAA compliant, scalable, and user-friendly. Our patient engagement scores improved by 300%. Absolutely recommended!",
       rating: 5,
       project: "Healthcare Management System",
       tech: ["React", "Django", "PostgreSQL"],
@@ -65,7 +65,7 @@ export function TestimonialsTech() {
       company: "LearnFast",
       avatar: "/placeholder.svg?height=60&width=60",
       content:
-        "Mr Coder transformed our idea into a beautiful, functional e-learning platform. The real-time features and video streaming work flawlessly. We've onboarded 10,000+ students already!",
+        "Coder Gali transformed our idea into a beautiful, functional e-learning platform. The real-time features and video streaming work flawlessly. We've onboarded 10,000+ students already!",
       rating: 5,
       project: "E-learning Platform",
       tech: ["Vue.js", "Node.js", "MongoDB"],

@@ -19,7 +19,7 @@ export default function LoginPage() {
   const [terminalText, setTerminalText] = useState("")
 
   const terminalCommands = [
-    "$ npm install @mrcoder/awesome",
+    "$ npm install @codergali/awesome",
     "$ git clone success.git",
     "$ yarn build --production",
     "$ docker deploy --scale=∞",
@@ -67,37 +67,8 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900/30 to-purple-900/30 relative overflow-hidden">
-      {/* Enhanced animated background */}
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cyan-500/20 via-purple-500/10 to-transparent"></div>
-
-        {/* Floating particles */}
-        {[...Array(20)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute w-1 h-1 bg-cyan-400 rounded-full animate-float opacity-60"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 5}s`,
-              animationDuration: `${3 + Math.random() * 4}s`,
-            }}
-          />
-        ))}
-
-        {/* Interactive gradient blob */}
-        <div
-          className="absolute w-96 h-96 bg-gradient-to-r from-cyan-500/30 to-purple-500/30 rounded-full blur-3xl transition-all duration-300"
-          style={{
-            left: mousePosition.x / 15,
-            top: mousePosition.y / 15,
-          }}
-        />
-
-        {/* Grid pattern */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(6,182,212,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(6,182,212,0.1)_1px,transparent_1px)] bg-[size:50px_50px]" />
-      </div>
+    <div className="min-h-screen bg-black relative overflow-hidden">
+      {/* Removed animated/gradient background for pure dark look */}
 
       {/* Header */}
       <div className="relative z-10 p-6">
@@ -121,7 +92,7 @@ export default function LoginPage() {
                   <div className="absolute inset-0 bg-cyan-400 opacity-30 blur-xl group-hover:opacity-50 transition-opacity animate-pulse" />
                 </div>
                 <div>
-                  <h1 className="text-4xl font-bold text-white code-text">Mr Coder</h1>
+                  <h1 className="text-4xl font-bold text-white code-text">Coder Gali</h1>
                   <div className="flex items-center gap-2 text-cyan-400">
                     <Wifi className="h-4 w-4 animate-pulse" />
                     <span>Developer Portal Online</span>
@@ -132,12 +103,12 @@ export default function LoginPage() {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold text-white">Welcome to the Future of Development</h2>
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  Join thousands of developers and businesses who trust Mr Coder for cutting-edge web solutions.
+                  Join thousands of developers and businesses who trust Coder Gali for cutting-edge web solutions.
                 </p>
               </div>
 
               {/* Terminal */}
-              <div className="glass-dark border border-cyan-500/30 rounded-lg p-4 font-mono text-sm">
+              <div className="glass-dark border border-cyan-500/30 rounded-lg p-4 font-mono text-sm bg-black/80">
                 <div className="flex items-center gap-2 mb-3 pb-2 border-b border-white/10">
                   <Terminal className="h-4 w-4 text-cyan-400" />
                   <span className="text-cyan-400">mrcoder@terminal:~</span>
@@ -155,15 +126,15 @@ export default function LoginPage() {
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-4">
-                <div className="text-center glass-dark p-4 rounded-lg border border-white/10">
+                <div className="text-center glass-dark p-4 rounded-lg border border-white/10 bg-black/80">
                   <div className="text-2xl font-bold text-cyan-400">500+</div>
                   <div className="text-gray-400 text-sm">Projects</div>
                 </div>
-                <div className="text-center glass-dark p-4 rounded-lg border border-white/10">
+                <div className="text-center glass-dark p-4 rounded-lg border border-white/10 bg-black/80">
                   <div className="text-2xl font-bold text-purple-400">98%</div>
                   <div className="text-gray-400 text-sm">Success Rate</div>
                 </div>
-                <div className="text-center glass-dark p-4 rounded-lg border border-white/10">
+                <div className="text-center glass-dark p-4 rounded-lg border border-white/10 bg-black/80">
                   <div className="text-2xl font-bold text-green-400">24/7</div>
                   <div className="text-gray-400 text-sm">Support</div>
                 </div>
@@ -175,7 +146,7 @@ export default function LoginPage() {
           <div className="flex items-center justify-center">
             <div className="w-full max-w-md">
               <Tabs defaultValue="login" className="w-full">
-                <TabsList className="grid w-full grid-cols-2 mb-8 glass-dark border border-cyan-500/30 bg-slate-800/50">
+                <TabsList className="grid w-full grid-cols-2 mb-8 glass-dark border border-cyan-500/30 bg-black/80">
                   <TabsTrigger
                     value="login"
                     className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-cyan-500 data-[state=active]:to-blue-500 data-[state=active]:text-white transition-all duration-300"
@@ -193,7 +164,7 @@ export default function LoginPage() {
                 </TabsList>
 
                 <TabsContent value="login">
-                  <Card className="glass-dark border-cyan-500/30 shadow-2xl backdrop-blur-xl bg-slate-800/30">
+                  <Card className="glass-dark border-cyan-500/30 shadow-2xl backdrop-blur-xl bg-black/90">
                     <CardHeader className="text-center space-y-4">
                       <CardTitle className="text-3xl text-white font-bold">
                         Access <span className="code-text">Developer Hub</span>
@@ -308,7 +279,7 @@ export default function LoginPage() {
                 </TabsContent>
 
                 <TabsContent value="register">
-                  <Card className="glass-dark border-purple-500/30 shadow-2xl backdrop-blur-xl bg-slate-800/30">
+                  <Card className="glass-dark border-purple-500/30 shadow-2xl backdrop-blur-xl bg-black/90">
                     <CardHeader className="text-center space-y-4">
                       <CardTitle className="text-3xl text-white font-bold">
                         Join{" "}

@@ -102,7 +102,7 @@ export default function FullStackDevelopmentPage() {
               </div>
 
               <div className="text-4xl font-bold text-white">
-                Starting at <span className="code-text">$3,999</span>
+                Starting at <span className="code-text">₹3,999</span>
               </div>
             </div>
 

@@ -29,7 +29,7 @@ export function Header() {
               <div className="absolute inset-0 bg-cyan-400 opacity-20 blur-lg group-hover:opacity-30 transition-opacity"></div>
             </div>
             <div className="flex flex-col">
-              <span className="text-2xl font-bold text-white code-text">Mr Coder</span>
+              <span className="text-2xl font-bold text-white code-text">Coder Gali</span>
               <div className="flex items-center gap-1 text-xs text-cyan-400">
                 <Zap className="h-3 w-3" />
                 <span>Currently available</span>
@@ -38,7 +38,11 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-6">
+            <Link href="/" className="text-gray-300 hover:text-white transition-colors relative group py-2">
+              Home
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-purple-500 group-hover:w-full transition-all duration-300"></span>
+            </Link>
             <Link href="#services" className="text-gray-300 hover:text-white transition-colors relative group py-2">
               Services
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-purple-500 group-hover:w-full transition-all duration-300"></span>
@@ -49,8 +53,13 @@ export function Header() {
             <Link href="#pricing" className="text-gray-300 hover:text-white transition-colors relative group py-2">
               Pricing
             </Link>
-            <Link href="#contact" className="text-gray-300 hover:text-white transition-colors relative group py-2">
-              Contact
+            <Link href="/contact" className="text-gray-300 hover:text-white transition-colors relative group py-2">
+              Contact Us
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-purple-500 group-hover:w-full transition-all duration-300"></span>
+            </Link>
+            <Link href="/team" className="text-gray-300 hover:text-white transition-colors relative group py-2">
+              Team
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-purple-500 group-hover:w-full transition-all duration-300"></span>
             </Link>
             <Button
               variant="ghost"
@@ -80,6 +89,9 @@ export function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-4 glass-dark rounded-lg mt-2 animate-fade-in-up">
             <nav className="flex flex-col gap-4 px-4">
+              <Link href="/" className="text-gray-300 hover:text-white transition-colors py-2">
+                Home
+              </Link>
               <Link href="#services" className="text-gray-300 hover:text-white transition-colors py-2">
                 Services
               </Link>
@@ -89,8 +101,11 @@ export function Header() {
               <Link href="#pricing" className="text-gray-300 hover:text-white transition-colors py-2">
                 Pricing
               </Link>
-              <Link href="#contact" className="text-gray-300 hover:text-white transition-colors py-2">
-                Contact
+              <Link href="/contact" className="text-gray-300 hover:text-white transition-colors py-2">
+                Contact Us
+              </Link>
+              <Link href="/team" className="text-gray-300 hover:text-white transition-colors py-2">
+                Team
               </Link>
               <div className="flex flex-col gap-2 pt-4 border-t border-white/20">
                 <Button variant="ghost" className="text-gray-300 hover:text-white hover:bg-white/10" asChild>

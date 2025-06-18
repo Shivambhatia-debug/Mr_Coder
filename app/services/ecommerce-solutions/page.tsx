@@ -96,7 +96,7 @@ export default function EcommerceSolutionsPage() {
               <div className="text-4xl font-bold text-white">
                 Starting at{" "}
                 <span className="bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
-                  $2,999
+                  ₹2,999
                 </span>
               </div>
             </div>
