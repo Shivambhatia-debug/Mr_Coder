@@ -8,7 +8,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <Code2 className="h-8 w-8 text-blue-400" />
-              <span className="text-2xl font-bold">Mr Coder</span>
+              <span className="text-2xl font-bold">Coder Gali</span>
             </div>
             <p className="text-gray-400 mb-6">
               Professional web development services that help businesses grow online. From custom websites to digital
@@ -68,11 +68,6 @@ export function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Our Team
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
                   Portfolio
                 </a>
               </li>
@@ -103,7 +98,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-blue-400" />
-                <span>hello@mrcoder.com</span>
+                <span>hello@codergali.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="h-5 w-5 text-blue-400" />
@@ -114,7 +109,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">© 2024 Mr Coder. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© 2024 Coder Gali. All rights reserved.</p>
           <div className="flex gap-6 text-sm text-gray-400 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">
               Privacy Policy

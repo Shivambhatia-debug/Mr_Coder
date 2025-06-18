@@ -12,7 +12,7 @@ export function LiveCodeEditor() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MrCoder Demo</title>
+    <title>Coder Gali Demo</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -56,18 +56,18 @@ export function LiveCodeEditor() {
 </head>
 <body>
     <div class="container">
-        <h1>🚀 Welcome to MrCoder</h1>
+        <h1>🚀 Welcome to Coder Gali</h1>
         <p style="color: white; font-size: 1.2em; margin-bottom: 30px;">
             Building the future, one line of code at a time
         </p>
-        <button class="btn" onclick="alert('Hello from MrCoder! 🔥')">
+        <button class="btn" onclick="alert('Hello from Coder Gali! 🔥')">
             Click Me!
         </button>
     </div>
 </body>
 </html>`)
 
-  const [cssCode, setCssCode] = useState(`/* MrCoder Advanced Styles */
+  const [cssCode, setCssCode] = useState(`/* Coder Gali Advanced Styles */
 .futuristic-card {
   background: linear-gradient(135deg, 
     rgba(6, 182, 212, 0.1) 0%, 
@@ -112,8 +112,8 @@ export function LiveCodeEditor() {
   50% { opacity: 0.8; }
 }`)
 
-  const [jsCode, setJsCode] = useState(`// MrCoder Interactive JavaScript
-class MrCoderApp {
+  const [jsCode, setJsCode] = useState(`// Coder Gali Interactive JavaScript
+class CoderGaliApp {
   constructor() {
     this.init();
   }
@@ -121,7 +121,7 @@ class MrCoderApp {
   init() {
     this.createParticles();
     this.setupInteractions();
-    console.log('🚀 MrCoder App Initialized!');
+    console.log('🚀 Coder Gali App Initialized!');
   }
 
   createParticles() {
@@ -198,7 +198,7 @@ class MrCoderApp {
 }
 
 // Initialize the app
-new MrCoderApp();`)
+new CoderGaliApp();`)
 
   const [activeTab, setActiveTab] = useState("preview")
   const [previewContent, setPreviewContent] = useState("")

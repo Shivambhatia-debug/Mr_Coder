@@ -15,7 +15,7 @@ import { MatrixRain } from "@/components/matrix-rain"
 import { AIChatbot } from "@/components/ai-chatbot"
 import { VoiceCommands } from "@/components/voice-commands"
 
-export default function MrCoderSaaS() {
+export default function CoderGaliSaaS() {
   return (
     <div className="min-h-screen bg-slate-900 relative">
       <MatrixRain />

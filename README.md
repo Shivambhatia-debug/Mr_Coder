@@ -1,4 +1,4 @@
-# Mr Coder 🚀
+# Coder Gali 🚀
 
 A modern web platform built with Next.js 15 and React 19, offering an immersive developer experience. Features include AI chatbot, live code editor, 3D portfolio, real-time dashboard, voice commands, and interactive animations.
 
@@ -27,7 +27,7 @@ A modern web platform built with Next.js 15 and React 19, offering an immersive 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/mr-coder.git
+git clone https://github.com/yourusername/coder-gali.git
 ```
 
 2. Install dependencies
@@ -45,7 +45,7 @@ pnpm dev
 ## Project Structure 📁
 
 ```
-mr-coder/
+coder-gali/
 ├── app/                # Next.js app directory
 ├── components/         # React components
 ├── public/            # Static files
@@ -63,4 +63,4 @@ MIT License - feel free to use this project for your own purposes!
 
 ---
 
-Built with ❤️ by Mr Coder 
+Built with ❤️ by Coder Gali 

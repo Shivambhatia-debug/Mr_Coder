@@ -21,7 +21,7 @@ export function AIChatbot() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      text: "👋 Hey! I'm MrCoder AI Assistant. I can help you with project planning, tech stack selection, cost estimation, and answer any development questions!",
+      text: "👋 Hey! I'm Coder Gali AI Assistant. I can help you with project planning, tech stack selection, cost estimation, and answer any development questions!",
       sender: "ai",
       timestamp: new Date(),
     },
@@ -174,7 +174,7 @@ export function AIChatbot() {
               </div>
               <div>
                 <CardTitle className="text-white text-lg flex items-center gap-2">
-                  MrCoder AI
+                  Coder Gali AI
                   <Sparkles className="h-4 w-4 text-yellow-400 animate-pulse" />
                 </CardTitle>
                 <p className="text-xs text-gray-400">Always here to help</p>
@@ -274,7 +274,7 @@ export function AIChatbot() {
               </div>
               <div className="flex items-center gap-2 mt-2 text-xs text-gray-400">
                 <Code className="h-3 w-3" />
-                <span>Powered by MrCoder AI • Voice enabled</span>
+                <span>Powered by Coder Gali AI • Voice enabled</span>
               </div>
             </div>
           </CardContent>

@@ -110,7 +110,7 @@ export default function MobileDevelopmentPage() {
               <div className="text-4xl font-bold text-white">
                 Starting at{" "}
                 <span className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
-                  $4,999
+                  ₹4,999
                 </span>
               </div>
             </div>

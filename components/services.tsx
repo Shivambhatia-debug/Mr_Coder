@@ -11,7 +11,7 @@ export function Services() {
       description:
         "Tailored websites and web applications built with modern technologies like React, Next.js, and Node.js.",
       features: ["Responsive Design", "Fast Loading", "SEO Optimized", "Mobile First"],
-      price: "Starting at $2,999",
+      price: "Starting at ₹2,999",
       image: "/placeholder.svg?height=200&width=300",
     },
     {
@@ -19,7 +19,7 @@ export function Services() {
       title: "SEO Optimization",
       description: "Boost your search rankings with comprehensive SEO strategies and technical optimization.",
       features: ["Keyword Research", "On-Page SEO", "Technical SEO", "Analytics Setup"],
-      price: "Starting at $899/month",
+      price: "Starting at ₹899/month",
       image: "/placeholder.svg?height=200&width=300",
     },
     {
@@ -27,7 +27,7 @@ export function Services() {
       title: "Digital Marketing",
       description: "Complete digital marketing solutions including social media, PPC, and content marketing.",
       features: ["Social Media Marketing", "Google Ads", "Content Strategy", "Email Marketing"],
-      price: "Starting at $1,299/month",
+      price: "Starting at ₹1,299/month",
       image: "/placeholder.svg?height=200&width=300",
     },
     {
@@ -35,7 +35,7 @@ export function Services() {
       title: "Mobile App Development",
       description: "Native and cross-platform mobile applications for iOS and Android.",
       features: ["React Native", "Flutter", "Native iOS/Android", "App Store Optimization"],
-      price: "Starting at $4,999",
+      price: "Starting at ₹4,999",
       image: "/placeholder.svg?height=200&width=300",
     },
     {
@@ -43,7 +43,7 @@ export function Services() {
       title: "E-commerce Solutions",
       description: "Complete online store development with payment integration and inventory management.",
       features: ["Shopify/WooCommerce", "Payment Gateway", "Inventory System", "Order Management"],
-      price: "Starting at $3,999",
+      price: "Starting at ₹3,999",
       image: "/placeholder.svg?height=200&width=300",
     },
     {
@@ -51,7 +51,7 @@ export function Services() {
       title: "Performance Optimization",
       description: "Speed up your website and improve user experience with advanced optimization techniques.",
       features: ["Core Web Vitals", "CDN Setup", "Image Optimization", "Caching Strategy"],
-      price: "Starting at $599",
+      price: "Starting at ₹599",
       image: "/placeholder.svg?height=200&width=300",
     },
   ]

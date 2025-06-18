@@ -93,7 +93,7 @@ export default function DevOpsDeploymentPage() {
               <div className="text-4xl font-bold text-white">
                 Starting at{" "}
                 <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-                  $599/mo
+                  ₹599/mo
                 </span>
               </div>
             </div>

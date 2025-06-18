@@ -11,7 +11,7 @@ export function CTA() {
             Ready to Transform Your Business Online?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join thousands of successful businesses who trust Mr Coder for their web development needs. Get a free
+            Join thousands of successful businesses who trust Coder Gali for their web development needs. Get a free
             consultation and quote today.
           </p>
 

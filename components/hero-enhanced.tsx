@@ -12,7 +12,7 @@ export function HeroEnhanced() {
   const [isTyping, setIsTyping] = useState(true)
 
   const codeSnippets = [
-    "const website = new MrCoder();",
+    "const website = new CoderGali();",
     "website.build({ tech: 'cutting-edge' });",
     "website.deploy({ speed: 'lightning' });",
     "console.log('Success! 🚀');",
@@ -186,7 +186,7 @@ export function HeroEnhanced() {
             <div className="glass-dark border border-cyan-500/30 rounded-lg p-6 mb-6">
               <div className="flex items-center gap-2 mb-4 pb-2 border-b border-white/10">
                 <Terminal className="h-4 w-4 text-cyan-400" />
-                <span className="text-cyan-400 font-mono">mrcoder@terminal:~</span>
+                <span className="text-cyan-400 font-mono">codergali@terminal:~</span>
                 <div className="flex gap-1 ml-auto">
                   <div className="w-3 h-3 rounded-full bg-red-500" />
                   <div className="w-3 h-3 rounded-full bg-yellow-500" />

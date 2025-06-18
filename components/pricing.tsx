@@ -12,7 +12,7 @@ export function Pricing() {
   const plans = [
     {
       name: "Starter",
-      price: "$2,999",
+      price: "₹2,999",
       period: "one-time",
       description: "Perfect for small businesses and startups",
       features: [
@@ -29,7 +29,7 @@ export function Pricing() {
     },
     {
       name: "Professional",
-      price: "$5,999",
+      price: "₹5,999",
       period: "one-time",
       description: "Ideal for growing businesses",
       features: [
@@ -48,7 +48,7 @@ export function Pricing() {
     },
     {
       name: "Enterprise",
-      price: "$12,999",
+      price: "₹12,999",
       period: "one-time",
       description: "For large businesses and complex projects",
       features: [

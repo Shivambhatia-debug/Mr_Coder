@@ -93,7 +93,7 @@ export default function UIUXDesignPage() {
               <div className="text-4xl font-bold text-white">
                 Starting at{" "}
                 <span className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
-                  $1,999
+                  ₹1,999
                 </span>
               </div>
             </div>

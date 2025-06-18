@@ -49,7 +49,7 @@ export function Features() {
     <section id="features" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Why Choose Mr Coder?</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Why Choose Coder Gali?</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We combine cutting-edge technology with proven strategies to deliver exceptional results for your business.
           </p>
