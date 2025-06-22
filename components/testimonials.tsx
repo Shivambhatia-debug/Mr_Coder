@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Star } from "lucide-react"
+import Image from "next/image"
 
 export function Testimonials() {
   const testimonials = [
@@ -9,8 +10,11 @@ export function Testimonials() {
       role: "CEO, TechStart Inc.",
       avatar: "/placeholder.svg?height=60&width=60",
       content:
-        "Mr Coder transformed our online presence completely. The website they built increased our conversions by 300% in just 3 months.",
+        "Mr Coder's SEO expertise delivered incredible results! Our organic traffic grew by 300% and conversions increased dramatically. The data speaks for itself - see the proven results below.",
       rating: 5,
+      hasImage: true,
+      imageUrl: "https://fireusmarketing.com/wp-content/uploads/2024/11/Organic-Traffic-Growth-Statistics-2025-Industry-Benchmarks.jpg",
+      imageAlt: "Proven SEO Results - Organic Traffic Growth Statistics for TechStart Inc."
     },
     {
       name: "Michael Chen",
@@ -19,6 +23,9 @@ export function Testimonials() {
       content:
         "Outstanding work! The e-commerce platform they developed handles thousands of orders seamlessly. Highly recommended!",
       rating: 5,
+      hasImage: true,
+      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRRXJh8UiFIMzIzkotm7ytciFMRqXJLS1WMQ&s",
+      imageAlt: "Proven SEO Results - E-commerce Store Performance for EcoShop"
     },
     {
       name: "Emily Rodriguez",
@@ -75,6 +82,18 @@ export function Testimonials() {
                 </div>
 
                 <p className="text-gray-700 mb-6 leading-relaxed">"{testimonial.content}"</p>
+
+                {testimonial.hasImage && testimonial.imageUrl && (
+                  <div className="mb-6">
+                    <Image
+                      src={testimonial.imageUrl}
+                      alt={testimonial.imageAlt || "Proven Results"}
+                      width={400}
+                      height={300}
+                      className="w-full h-auto rounded-lg shadow-md"
+                    />
+                  </div>
+                )}
 
                 <div className="flex items-center gap-3">
                   <Avatar>

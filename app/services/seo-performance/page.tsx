@@ -31,19 +31,19 @@ export default function SEOPerformancePage() {
       client: "TechStartup Inc.",
       improvement: "300% Organic Traffic",
       timeframe: "6 months",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://www.splendourgroup.org/wp-content/uploads/2022/06/ORGANIC-traffic.png",
     },
     {
       client: "E-commerce Store",
       improvement: "250% Conversion Rate",
       timeframe: "4 months",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://img.freepik.com/premium-photo/product-package-boxes-shopping-bag-cart-with-laptop-online-shopping-delivery-concept_38716-138.jpg?semt=ais_hybrid&w=740",
     },
     {
       client: "Local Business",
       improvement: "400% Local Visibility",
       timeframe: "3 months",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoPRxUHrztrs_Jfa-7HGexhAjyjiZH84M8Lg&s",
     },
   ]
 
@@ -112,8 +112,8 @@ export default function SEOPerformancePage() {
             <div className="relative animate-slide-in-right">
               <div className="glass-dark p-8 rounded-2xl border border-white/10">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="SEO Performance Dashboard"
+                  src="https://mlcnilqbnajo.i.optimole.com/cb:TNAe.1e304/w:1250/h:853/q:mauto/f:best/https://archseologist.com/wp-content/uploads/2024/01/SEO-Performance-Analytics.webp"
+                  alt="SEO Performance Analytics Dashboard"
                   className="w-full h-64 object-cover rounded-lg mb-6"
                 />
                 <div className="grid grid-cols-2 gap-4">

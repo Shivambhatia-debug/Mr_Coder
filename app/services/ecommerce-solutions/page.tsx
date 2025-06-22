@@ -19,21 +19,21 @@ export default function EcommerceSolutionsPage() {
     {
       title: "Fashion E-commerce",
       description: "Modern clothing store with AR try-on",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2DBf9pLk-IqLuzB2V_Y7SR1k38qaAfl5-ZQ&s",
       platform: "Shopify Plus",
       revenue: "$2M+ Annual",
     },
     {
       title: "Electronics Marketplace",
       description: "Multi-vendor electronics platform",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOc_m1zVSlv_xoVndRqUJ_7DHHJSKmXaQI2g&s",
       platform: "Custom Solution",
       revenue: "$5M+ Annual",
     },
     {
       title: "Food Delivery Platform",
       description: "Restaurant ordering and delivery system",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://mobisoftinfotech.com/resources/wp-content/uploads/2018/03/top-on-demand-food-delivery-platforms-globally-1.png",
       platform: "React + Node.js",
       revenue: "$1M+ Annual",
     },
@@ -104,8 +104,8 @@ export default function EcommerceSolutionsPage() {
             <div className="relative animate-slide-in-right">
               <div className="glass-dark p-8 rounded-2xl border border-white/10">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="E-commerce Dashboard"
+                  src="/enterprise-ecommerce-solution.jpg"
+                  alt="Enterprise E-commerce Solution"
                   className="w-full h-64 object-cover rounded-lg mb-6"
                 />
                 <div className="grid grid-cols-2 gap-4">

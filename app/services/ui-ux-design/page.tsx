@@ -19,19 +19,19 @@ export default function UIUXDesignPage() {
     {
       title: "FinTech Mobile App",
       description: "Modern banking app with intuitive UX",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://qubstudio.com/wp-content/uploads/2018/04/Website-cover1-2.jpg",
       category: "Mobile Design",
     },
     {
       title: "SaaS Dashboard",
       description: "Complex data visualization made simple",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://cdn.prod.website-files.com/5f16d69f1760cdba99c3ce6e/673c8e25b0be5dd96d25e5af_64b10b1a58516a876eee2fc7_4.png",
       category: "Web Design",
     },
     {
       title: "E-commerce Platform",
       description: "Conversion-focused shopping experience",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://ebz-static.s3.ap-south-1.amazonaws.com/easebuzz-static/upi-credit-cards-v1.png",
       category: "E-commerce",
     },
   ]
@@ -101,8 +101,8 @@ export default function UIUXDesignPage() {
             <div className="relative animate-slide-in-right">
               <div className="glass-dark p-8 rounded-2xl border border-white/10">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="UI/UX Design Process"
+                  src="https://cdn-llngb.nitrocdn.com/llFNHfgcDPRANqvXFlKlalFtYgdhejba/assets/images/optimized/rev-063e3b8/www.itrobes.com/wp-content/uploads/2024/01/UIUX-design-cost.jpg"
+                  alt="UI/UX Design Cost and Services - Professional Design Solutions"
                   className="w-full h-64 object-cover rounded-lg mb-6"
                 />
                 <div className="grid grid-cols-2 gap-4">

@@ -19,19 +19,19 @@ export default function DevOpsDeploymentPage() {
     {
       title: "Microservices Architecture",
       description: "Scalable containerized application deployment",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://ares.decipherzone.com/blog-manager/uploads/banner_94b23d43-ed59-4a04-af74-009eb2db0163.jpg",
       tech: ["Kubernetes", "Docker", "AWS"],
     },
     {
       title: "Auto-Scaling Platform",
       description: "Dynamic resource allocation system",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://i.ytimg.com/vi/5eXJLiJfuPA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAh282BNBpzUE21smftnNEunMEOQQ",
       tech: ["Terraform", "Jenkins", "Prometheus"],
     },
     {
       title: "Multi-Cloud Setup",
       description: "Redundant cloud infrastructure",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://www.liquidweb.com/wp-content/uploads/2024/07/hybrid-vs-multi.png",
       tech: ["AWS", "Azure", "CloudFlare"],
     },
   ]
@@ -101,7 +101,7 @@ export default function DevOpsDeploymentPage() {
             <div className="relative animate-slide-in-right">
               <div className="glass-dark p-8 rounded-2xl border border-white/10">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/devops-tools-streamlining.webp"
                   alt="DevOps Infrastructure"
                   className="w-full h-64 object-cover rounded-lg mb-6"
                 />
