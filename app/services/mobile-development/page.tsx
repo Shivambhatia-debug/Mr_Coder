@@ -33,21 +33,21 @@ export default function MobileDevelopmentPage() {
     {
       title: "FinanceTracker Pro",
       description: "Personal finance management with AI insights",
-      image: "/placeholder.svg?height=300&width=200",
+      image: "https://s3-alpha.figma.com/hub/file/2149320125579275864/ef7d88a7-444c-4cc2-afc9-81c4201d35ed-cover.png",
       platform: "React Native",
       downloads: "50K+",
     },
     {
       title: "FoodieDelivery",
       description: "On-demand food delivery with real-time tracking",
-      image: "/placeholder.svg?height=300&width=200",
+      image: "https://code.market/imgproxy/2024/01/Artboard-2-copy.png",
       platform: "Flutter",
       downloads: "100K+",
     },
     {
       title: "FitnessCoach AI",
       description: "AI-powered workout and nutrition planning",
-      image: "/placeholder.svg?height=300&width=200",
+      image: "https://ideausher.com/wp-content/uploads/2024/08/coachify.jpg",
       platform: "Native iOS",
       downloads: "25K+",
     },
@@ -118,7 +118,7 @@ export default function MobileDevelopmentPage() {
             <div className="relative animate-slide-in-right">
               <div className="glass-dark p-8 rounded-2xl border border-white/10">
                 <img
-                  src="/placeholder.svg?height=400&width=300"
+                  src="https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg"
                   alt="Mobile App Development"
                   className="w-full h-64 object-cover rounded-lg mb-6"
                 />

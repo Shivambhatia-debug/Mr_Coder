@@ -30,19 +30,19 @@ export default function FullStackDevelopmentPage() {
     {
       title: "SaaS Analytics Platform",
       description: "Real-time data visualization with React & Node.js",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/react-dashboard.png",
       tech: ["React", "Node.js", "PostgreSQL", "Redis"],
     },
     {
       title: "E-learning Management System",
       description: "Complete LMS with video streaming and progress tracking",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://www.bsetec.com/blog/wp-content/uploads/2022/06/49.jpg",
       tech: ["Next.js", "Python", "MongoDB", "AWS"],
     },
     {
       title: "Fintech Trading Platform",
       description: "High-frequency trading platform with real-time data",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://cdn.prod.website-files.com/617960145ff34f911afe7243/67e56da3d38281f10a5bac2a_Trading%20Platforms.jpg",
       tech: ["React", "Node.js", "WebSocket", "PostgreSQL"],
     },
   ]
@@ -109,7 +109,7 @@ export default function FullStackDevelopmentPage() {
             <div className="relative animate-slide-in-right">
               <div className="glass-dark p-8 rounded-2xl border border-white/10">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/full-stack-developer.webp"
                   alt="Full-Stack Development"
                   className="w-full h-64 object-cover rounded-lg mb-6"
                 />
@@ -183,8 +183,8 @@ export default function FullStackDevelopmentPage() {
 
             <div className="glass-dark p-8 rounded-2xl border border-white/10">
               <img
-                src="/placeholder.svg?height=300&width=500"
-                alt="Development Process"
+                src="https://jaro-website.s3.ap-south-1.amazonaws.com/2024/07/full-stack-web-developer.png"
+                alt="Custom API Development"
                 className="w-full h-48 object-cover rounded-lg"
               />
             </div>

@@ -14,12 +14,12 @@ export function Portfolio3D() {
   const projects = [
     {
       id: 1,
-      title: "TechFlow SaaS Platform",
+      title: "🚀 Drone Surveillance System",
       category: "Web Application",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/drone-project.jpg",
       tech: ["React", "Node.js", "PostgreSQL"],
       gradient: "from-blue-600 to-cyan-500",
-      description: "Enterprise-grade SaaS platform with real-time analytics",
+      description: "AI-powered autonomous drone for aerial monitoring and data collection",
       liveUrl: "#",
       githubUrl: "#",
     },

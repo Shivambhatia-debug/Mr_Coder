@@ -94,15 +94,15 @@ export function Footer() {
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-blue-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>7992322340</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-blue-400" />
-                <span>hello@codergali.com</span>
+                <span>info.krishanova@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="h-5 w-5 text-blue-400" />
-                <span>123 Tech Street, Digital City, DC 12345</span>
+                <span>krishaNova Headquaters Mirzapur Chowk Near city Center Darbhanga, Bihar 846004</span>
               </div>
             </div>
           </div>

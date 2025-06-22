@@ -13,8 +13,8 @@ export function TestimonialsTech() {
   const testimonials = [
     {
       name: "Alex Chen",
-      role: "CTO, TechFlow Inc.",
-      company: "TechFlow Inc.",
+      role: "CTO, DroneTech Solutions",
+      company: "DroneTech Solutions",
       avatar: "/placeholder.svg?height=60&width=60",
       content:
         "Mr Coder delivered an exceptional full-stack application that exceeded our expectations. The code quality is outstanding, and the performance is blazing fast. Our user engagement increased by 400% after launch.",
