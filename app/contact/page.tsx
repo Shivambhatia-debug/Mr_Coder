@@ -36,7 +36,7 @@ export default function ContactPage() {
                     <Phone className="h-6 w-6 text-blue-400 mt-1" />
                     <div>
                       <h3 className="text-white font-medium">Phone</h3>
-                      <p className="text-gray-400">+1 (555) 123-4567</p>
+                      <p className="text-gray-400">+91 7992322340</p>
                       <p className="text-sm text-gray-500 mt-1">Available Monday to Friday, 9 AM - 6 PM EST</p>
                     </div>
                   </div>
@@ -44,7 +44,7 @@ export default function ContactPage() {
                     <Mail className="h-6 w-6 text-blue-400 mt-1" />
                     <div>
                       <h3 className="text-white font-medium">Email</h3>
-                      <p className="text-gray-400">hello@codergali.com</p>
+                      <p className="text-gray-400">info.krishanove@gmail.com</p>
                       <p className="text-sm text-gray-500 mt-1">We'll respond within 24 hours</p>
                     </div>
                   </div>
@@ -52,7 +52,7 @@ export default function ContactPage() {
                     <MapPin className="h-6 w-6 text-blue-400 mt-1" />
                     <div>
                       <h3 className="text-white font-medium">Office Location</h3>
-                      <p className="text-gray-400">123 Tech Street, Digital City, DC 12345</p>
+                      <p className="text-gray-400">KrishaNova Headquaters Mirazapur Chowk,Near City Center Daebhanga ,Bihar 846004</p>
                       <p className="text-sm text-gray-500 mt-1">Available for in-person meetings by appointment</p>
                     </div>
                   </div>
