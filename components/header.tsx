@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { Code2, Menu, X, Zap } from "lucide-react"
+import { Code2, Menu, X, Zap, BarChart3 } from "lucide-react"
 import Link from "next/link"
 
 export function Header() {
@@ -66,6 +66,15 @@ export function Header() {
               <Link href="/login">Sign In</Link>
             </Button>
             <Button
+              className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-400 hover:to-purple-500 text-white border-0"
+              asChild
+            >
+              <Link href="/dashboard" className="flex items-center gap-2">
+                <BarChart3 className="h-4 w-4" />
+                Dashboard
+              </Link>
+            </Button>
+            <Button
               className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500 text-white border-0 animate-pulse-glow"
               asChild
             >
@@ -86,30 +95,39 @@ export function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-4 glass-dark rounded-lg mt-2 animate-fade-in-up">
             <nav className="flex flex-col gap-4 px-4">
-              <Link href="/" className="text-gray-300 hover:text-white transition-colors py-2">
+              <Link href="/" className="text-gray-300 hover:text-white transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                 Home
               </Link>
-              <Link href="#services" className="text-gray-300 hover:text-white transition-colors py-2">
+              <Link href="#services" className="text-gray-300 hover:text-white transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                 Services
               </Link>
-              <Link href="#pricing" className="text-gray-300 hover:text-white transition-colors py-2">
+              <Link href="#pricing" className="text-gray-300 hover:text-white transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                 Pricing
               </Link>
-              <Link href="/contact" className="text-gray-300 hover:text-white transition-colors py-2">
+              <Link href="/contact" className="text-gray-300 hover:text-white transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                 Contact Us
               </Link>
-              <Link href="/team" className="text-gray-300 hover:text-white transition-colors py-2">
+              <Link href="/team" className="text-gray-300 hover:text-white transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                 Team
               </Link>
               <div className="flex flex-col gap-2 pt-4 border-t border-white/20">
                 <Button variant="ghost" className="text-gray-300 hover:text-white hover:bg-white/10" asChild>
-                  <Link href="/login">Sign In</Link>
+                  <Link href="/login" onClick={() => setIsMenuOpen(false)}>Sign In</Link>
+                </Button>
+                <Button
+                  className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-400 hover:to-purple-500 text-white"
+                  asChild
+                >
+                  <Link href="/dashboard" className="flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
+                    <BarChart3 className="h-4 w-4" />
+                    Dashboard
+                  </Link>
                 </Button>
                 <Button
                   className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500"
                   asChild
                 >
-                  <Link href="/start-project">Start a Sprint</Link>
+                  <Link href="/start-project" onClick={() => setIsMenuOpen(false)}>Start a Sprint</Link>
                 </Button>
               </div>
             </nav>
